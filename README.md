@@ -1,4 +1,4 @@
-::: mermaid
+```mermaid
 
 ---
 
@@ -19,4 +19,4 @@ if -. ya .-> newLines
 
 if -. tidak .-> newLines1
 
-:::
+```
