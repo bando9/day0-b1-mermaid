@@ -1,22 +1,18 @@
-```mermaid
-
----
-
-title: Kriteria lulus
-
----
+``` mermaid
 
 flowchart TD
-start(start)
-if{apakah nilaimu diatas 75?}
 
-newLines[LULUS]
-newLines1[TIDAK LULUS]
 
-start --> if
+  start(start)
+  if{apakah nilaimu diatas 75?}
 
-if -. ya .-> newLines
+  newLines[LULUS]
+  newLines1[TIDAK LULUS]
 
-if -. tidak .-> newLines1
+  start --> if
+
+  if -. ya .-> newLines
+
+  if -. tidak .-> newLines1
 
 ```
